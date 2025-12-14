@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+ 
+<html lang="bg">
+<head>
+ 
+    <title>Помощник за 7. клас</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="devBubble">
+  Сайтът е в процес на разработка &#9888;&#65039;
+</div>
+ 
+<script>
+  window.onload = () => {
+    const bubble = document.getElementById("devBubble");
+    bubble.classList.add("show");
+ 
+    // скрива го автоматично след 5 сек (можеш да махнеш това)
+    setTimeout(() => {
+      bubble.classList.remove("show");
+    }, 5000);
+  };
+</script>
+ 
+ 
+<header class="header">
+    <h1>Помощник за 7. клас</h1>
+    <p>Учи бързо, лесно и приятно!</p>
+</header>
+ 
+<nav class="menu">
+    <a href="index.html">Начало</a>
+    <a href="bulgarian.html">Български</a>
+    <a href="science.html">Природни науки</a>
+    <a href="matematika.html">Математика</a>
+    <a href="v.html">Помощ при кандидатсване</a>
+ 
+</nav>
+ 
+<section class="welcome">
+    <div class="card">
+        <h2>Добре дошли!</h2>
+        <p>Избери предмет от менюто, за да започнеш подготовката.</p>
+    </div>
+</section>
+ 
+<footer class="footer">
+  © Помощник за 7 клас. Licensed under the GNU GPL v3. See /LICENSE.html
+</footer>
+ 
+</body>
+</html>
